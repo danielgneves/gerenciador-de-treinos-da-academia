@@ -177,7 +177,7 @@ public class TreinoDAO {
 			pstm.setString(1, treino.getNome());
 			pstm.setString(2, treino.getTipo());
 			pstm.setString(3, treino.getDataTreino());
-			pstm.setInt(4, treino.getId());
+			pstm.setInt(4, treino.getId()); // id do treino que será atualizado
 
 			pstm.execute();
 
